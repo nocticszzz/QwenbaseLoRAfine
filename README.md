@@ -32,5 +32,6 @@ llamafactory-cli train \
     --num_train_epochs 5 \
     --fp16 True
 
-# 使用已经训练好的LoRA checkpoint-400 进行推理   
+# 使用已经训练好的LoRA checkpoint-400 进行推理 
+模型地址：[checkpoint400](https://huggingface.co/nocticszzz/qwenlora/tree/main)  
 python predict-fin.py
