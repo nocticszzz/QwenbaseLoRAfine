@@ -1,0 +1,13 @@
+# model / checkpoint
+saves/
+checkpoints/
+outputs/
+
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+
+# python cache
+__pycache__/
+*.log
